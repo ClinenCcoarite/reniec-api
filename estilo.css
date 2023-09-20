@@ -1,0 +1,109 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    width: 50%;
+    margin: auto;
+    flex-direction: column;
+}
+.logo img{
+    width: 150px;
+    padding: 0;
+}
+.logo h1{
+    margin: -30px 0 10px 0;
+    padding: 0;
+    font-weight: 500;
+    font-family: inherit;
+}
+
+
+.father-container{
+    border-radius: 20px;
+    width: 50%;
+    margin: auto;
+    border: 1px solid rgb(51,122,183);
+}
+h3{
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    font-family: inherit;
+    padding: .1em;
+    border-radius: 15px 15px 0 0;
+    margin: 0;
+    background-color: rgb(51,122,183);
+    color: rgb(253, 253, 253);
+}
+.consulta-container{
+    display: flex;
+    width: 100%;
+    margin: 18px auto;
+    justify-content: center;
+    align-items: center;
+}
+.input-dni{
+    outline:none;
+    /* min-width: 80%; */
+    /* padding: 3px; */
+    border: 1px solid rgb(51,122,183);
+    border-radius: 3px;
+    padding: .4em;
+}
+
+.out-search{
+    display: flex;
+    width: 100%;
+    margin: 20px auto;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.btn-search{
+    padding: 0;
+    border: transparent;
+}
+.btn-search i{
+    font-size: 1.1rem;
+    border-radius: 3px;
+    font-weight: 800;
+    color: rgb(222, 225, 228);
+    cursor: pointer;
+    background-color: rgb(51,122,183);
+    padding: .3rem;
+}
+
+.date{
+    color: rgb(18, 18, 19);
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.red{
+    color: red;
+}
+
+
+.resultado{
+    width: 70%;
+    display: none;
+    margin: 5% auto;
+    border: 1px solid rgb(51,122,183);
+    border-radius: 5px;
+    /* padding: 1rem; */
+}
+.resultado h4{
+    background-color: rgb(51,122,183);
+    margin: 0;
+    padding: .5em;
+    color: #fff;
+    font-size: 20px;
+}
+.consul{
+    display: flex;
+    flex-direction: column;
+    padding: 1em 0 1em 2em;
+}

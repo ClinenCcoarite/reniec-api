@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./estilo.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <title>reniec</title>
+    <script src="https://kit.fontawesome.com/49d6977c05.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="logo">
+        <img src="./DNI.png" alt="">
+        <h1>Consulta DNI</h1>
+    </div>
+    <div class="father-container">
+        <h3 class="titulo-dni">Busqueda</h3>
+        <form class="consulta-container" id="form">
+            <input name="dni" class="input-dni" id="input-dni" type="text">
+            <button type="submit" class="btn-search" id="btn-search"><i
+                    class="fa-solid fa-magnifying-glass"></i></button>
+        </form>
+        <div class="out-search" id="out-search"></div>
+    </div>
+    <div class="resultado">
+            <h4>Titular DNI</h4>
+            <div class="consul">
+            </div>
+    </div>
+
+    <script src="./operacion.js"></script>
+</body>
+
+</html>
